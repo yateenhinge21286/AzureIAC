@@ -7,9 +7,9 @@ terraform {
     }
   }
   cloud {
-    organization = "CloudQuickLabs"
+    organization = "TFOrg001"
     workspaces {
-      name = "AzureLabs"
+      name = "TF_API_workspace"
     }
   }
 }
